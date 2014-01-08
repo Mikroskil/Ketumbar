@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CYBER</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="text">textview</string>
+    <string name="botton2">tombol</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_activity_a">AActivity</string>
+    <string name="title_activity_hurufb">Hurufb</string>
+    <string name="title_activity_membaca">Membaca</string>
+    <string name="title_activity_soalhitung1">Soalhitung1</string>
+    <string name="title_activity_berhitung">Berhitung</string>
+    <string name="title_activity_angka1">Angka1</string>
+    <string name="title_activity_angka2">Angka2</string>
+    <string name="title_activity_angka3">Angka3</string>
+    <string name="title_activity_angka4">Angka4</string>
+    <string name="title_activity_angka5">Angka5</string>
+    <string name="title_activity_angka6">Angka6</string>
+    <string name="title_activity_angka7">Angka7</string>
+    <string name="title_activity_angka8">Angka8</string>
+    <string name="title_activity_angka9">Angka9</string>
+    <string name="title_activity_angka10">Angka10</string>
+    <string name="title_activity_hurufa">Hurufa</string>
+    <string name="title_activity_hurufc">Hurufc</string>
+    <string name="title_activity_hurufd">Hurufd</string>
+    <string name="title_activity_hurufe">Hurufe</string>
+    <string name="title_activity_huruff">Huruff</string>
+    <string name="title_activity_hurufg">Hurufg</string>
+    <string name="title_activity_hurufh">Hurufh</string>
+    <string name="title_activity_hurufi">Hurufi</string>
+    <string name="title_activity_hurufj">Hurufj</string>
+    <string name="title_activity_hurufk">Hurufk</string>
+    <string name="title_activity_hurufl">Hurufl</string>
+    <string name="title_activity_hurufm">Hurufm</string>
+    <string name="title_activity_hurufn">Hurufn</string>
+    <string name="title_activity_hurufo">Hurufo</string>
+    <string name="title_activity_hurufp">Hurufp</string>
+    <string name="title_activity_hurufq">Hurufq</string>
+    <string name="title_activity_hurufr">Hurufr</string>
+    <string name="title_activity_hurufs">Hurufs</string>
+    <string name="title_activity_huruft">Huruft</string>
+    <string name="title_activity_hurufu">Hurufu</string>
+    <string name="title_activity_hurufv">Hurufv</string>
+    <string name="title_activity_hurufw">Hurufw</string>
+    <string name="title_activity_hurufx">Hurufx</string>
+    <string name="title_activity_hurufy">Hurufy</string>
+    <string name="title_activity_hurufz">Hurufz</string>
+    <string name="title_activity_baca1">Baca1</string>
+    <string name="title_activity_ketikabenar">Ketikabenar</string>
+    <string name="title_activity_ketikasalah">Ketikasalah</string>
+
+</resources>

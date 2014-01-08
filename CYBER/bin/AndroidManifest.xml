@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cyber"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:permission=""
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.cyber.AppActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.cyber.Hurufa" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Hurufb"
+            android:label="@string/title_activity_hurufb" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Membaca"
+            android:label="@string/title_activity_membaca" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Soalhitung1"
+            android:label="@string/title_activity_soalhitung1" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Berhitung"
+            android:label="@string/title_activity_berhitung" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Angka1"
+            android:label="@string/title_activity_angka1" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Angka2"
+            android:label="@string/title_activity_angka2" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Angka3"
+            android:label="@string/title_activity_angka3" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Angka4"
+            android:label="@string/title_activity_angka4" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Angka5"
+            android:label="@string/title_activity_angka5" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Angka6"
+            android:label="@string/title_activity_angka6" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Angka7"
+            android:label="@string/title_activity_angka7" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Angka8"
+            android:label="@string/title_activity_angka8" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Angka9"
+            android:label="@string/title_activity_angka9" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Angka10"
+            android:label="@string/title_activity_angka10" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Hurufc"
+            android:label="@string/title_activity_hurufc" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Hurufd"
+            android:label="@string/title_activity_hurufd" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Hurufe"
+            android:label="@string/title_activity_hurufe" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Huruff"
+            android:label="@string/title_activity_huruff" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Hurufg"
+            android:label="@string/title_activity_hurufg" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Hurufh"
+            android:label="@string/title_activity_hurufh" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Hurufi"
+            android:label="@string/title_activity_hurufi" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Hurufj"
+            android:label="@string/title_activity_hurufj" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Hurufk"
+            android:label="@string/title_activity_hurufk" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Hurufl"
+            android:label="@string/title_activity_hurufl" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Hurufm"
+            android:label="@string/title_activity_hurufm" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Hurufn"
+            android:label="@string/title_activity_hurufn" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Hurufo"
+            android:label="@string/title_activity_hurufo" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Hurufp"
+            android:label="@string/title_activity_hurufp" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Hurufq"
+            android:label="@string/title_activity_hurufq" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Hurufr"
+            android:label="@string/title_activity_hurufr" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Hurufs"
+            android:label="@string/title_activity_hurufs" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Huruft"
+            android:label="@string/title_activity_huruft" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Hurufu"
+            android:label="@string/title_activity_hurufu" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Hurufv"
+            android:label="@string/title_activity_hurufv" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Hurufw"
+            android:label="@string/title_activity_hurufw" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Hurufx"
+            android:label="@string/title_activity_hurufx" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Hurufy"
+            android:label="@string/title_activity_hurufy" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Hurufz"
+            android:label="@string/title_activity_hurufz" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Baca1"
+            android:label="@string/title_activity_baca1" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Ketikabenar"
+            android:label="@string/title_activity_ketikabenar" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Ketikasalah"
+            android:label="@string/title_activity_ketikasalah" >
+        </activity>
+    </application>
+
+</manifest>
