@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/maplestory"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".AppActivity" 
+    >
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="420dp"
+        android:layout_height="300dp"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/judul" >
+
+ </TableRow>
+<ImageButton
+            android:id="@+id/berhitung"
+            android:layout_width="100dp"
+            android:layout_height="92dp"
+            android:layout_alignLeft="@+id/tableRow1"
+            android:layout_alignTop="@+id/membaca"
+            android:contentDescription="@drawable/menghitung"
+            android:scaleType="fitEnd"
+            android:src="@drawable/menghitung" />
+
+
+
+ <ImageButton
+            android:id="@+id/membaca"
+            android:layout_width="100dp"
+            android:layout_height="92dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/membaca" 
+            android:contentDescription="@drawable/membaca"/>
+        
+        
+ <ImageButton
+            android:id="@+id/menulis"
+            android:layout_width="100dp"
+            android:layout_height="92dp"
+            android:layout_alignTop="@+id/membaca"
+            android:layout_toRightOf="@+id/membaca"
+            android:contentDescription="@drawable/menulis"
+            android:scaleType="fitEnd"
+            android:src="@drawable/menulis" />
+
+        
+       
+        
+        
+
+</RelativeLayout>
