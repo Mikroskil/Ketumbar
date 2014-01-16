@@ -20,10 +20,20 @@
     </TableRow>
 
     <ImageButton
-        android:id="@+id/berhitung"
-        android:layout_width="100dp"
+        android:id="@+id/membaca"
+        android:layout_width="90dp"
         android:layout_height="92dp"
-        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="24dp"
+        android:contentDescription="@drawable/membaca"
+        android:src="@drawable/membaca" />
+
+    <ImageButton
+        android:id="@+id/berhitung"
+        android:layout_width="90dp"
+        android:layout_height="92dp"
+        android:layout_alignRight="@+id/tableRow1"
         android:layout_alignTop="@+id/membaca"
         android:contentDescription="@drawable/menghitung"
         android:scaleType="fitEnd"
@@ -31,20 +41,11 @@
 
     <ImageButton
         android:id="@+id/menulis"
-        android:layout_width="100dp"
+        android:layout_width="90dp"
         android:layout_height="92dp"
-        android:layout_alignTop="@+id/membaca"
+        android:layout_alignTop="@+id/berhitung"
         android:layout_centerHorizontal="true"
         android:contentDescription="@drawable/menulis"
         android:src="@drawable/menulis" />
-
-    <ImageButton
-        android:id="@+id/membaca"
-        android:layout_width="100dp"
-        android:layout_height="92dp"
-        android:layout_alignLeft="@+id/tableRow1"
-        android:layout_alignParentBottom="true"
-        android:contentDescription="@drawable/membaca"
-        android:src="@drawable/membaca" />
 
 </RelativeLayout>

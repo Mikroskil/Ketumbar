@@ -41,7 +41,7 @@ public class AppActivity extends Activity {
 		final Context context = this;
 		ImageButton btn3 = (ImageButton)findViewById(R.id.menulis);
 		btn3.setOnClickListener(new OnClickListener(){
-			public void onClick (View b1){
+			public void onClick (View c1){
 				Intent intent = new Intent(context,Menulisa.class);
 				startActivity(intent);
 			}
