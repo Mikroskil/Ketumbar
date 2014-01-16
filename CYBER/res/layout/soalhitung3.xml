@@ -54,7 +54,7 @@
             android:src="@drawable/mataharic" />
 
         <ImageButton
-            android:id="@+id/mataharib"
+            android:id="@+id/mataharia"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignTop="@+id/mataharic"
@@ -63,11 +63,11 @@
             android:src="@drawable/mataharia" />
 
         <ImageButton
-            android:id="@+id/mataharia"
+            android:id="@+id/mataharib"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignBottom="@+id/mataharib"
             android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/mataharia"
             android:contentDescription="@drawable/mataharib"
             android:src="@drawable/mataharib" />
 
