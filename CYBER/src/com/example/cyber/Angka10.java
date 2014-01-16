@@ -7,6 +7,7 @@ import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.view.Window;
 import android.widget.ImageButton;
 
 public class Angka10 extends Activity {
@@ -17,6 +18,7 @@ public class Angka10 extends Activity {
 	@Override
 	 protected void onCreate(Bundle savedInstanceState){
 		super.onCreate(savedInstanceState);
+		this.requestWindowFeature(Window.FEATURE_NO_TITLE);
 		setContentView(R.layout.angka10);
 		ketikarrowback();
 		ketikarrowkiri();
