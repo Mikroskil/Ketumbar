@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.view.Window;
 import android.widget.ImageButton;
 
 public class Soalhitung3 extends Activity {
@@ -13,6 +14,7 @@ public class Soalhitung3 extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		this.requestWindowFeature(Window.FEATURE_NO_TITLE);
 		setContentView(R.layout.soalhitung3);
 		
 		ketikarrowback();
@@ -56,7 +58,7 @@ public class Soalhitung3 extends Activity {
 		arrow.setOnClickListener(new View.OnClickListener() {  
 			   @Override  
 			   public void onClick(View b2) {  
-				   Intent intent = new Intent(context,Ketikasalah.class);
+				   Intent intent = new Intent(context,Ketikasalah2.class);
 					startActivity(intent);
 			   }  
 			  });
@@ -69,7 +71,7 @@ public class Soalhitung3 extends Activity {
 		arrow.setOnClickListener(new View.OnClickListener() {  
 			   @Override  
 			   public void onClick(View b2) {  
-				   Intent intent = new Intent(context,Ketikasalah.class);
+				   Intent intent = new Intent(context,Ketikasalah2.class);
 					startActivity(intent);
 			   }  
 			  });

@@ -3,16 +3,22 @@ package com.example.cyber;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.view.Window;
 import android.widget.ImageButton;
 
 public class Soalhitung1 extends Activity {
-
+	MediaPlayer mp;
+    ImageButton one ;
+	
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		this.requestWindowFeature(Window.FEATURE_NO_TITLE);
 		setContentView(R.layout.soalhitung1);
 		
 		ketikarrowback();
@@ -55,7 +61,7 @@ public class Soalhitung1 extends Activity {
 		ImageButton arrow = (ImageButton) findViewById(R.id.mikib); 
 		arrow.setOnClickListener(new View.OnClickListener() {  
 			   @Override  
-			   public void onClick(View b2) {  
+			   public void onClick(View b1) {  
 				   Intent intent = new Intent(context,Ketikasalah.class);
 					startActivity(intent);
 			   }  
@@ -68,13 +74,14 @@ public class Soalhitung1 extends Activity {
 		ImageButton arrow = (ImageButton) findViewById(R.id.mikic); 
 		arrow.setOnClickListener(new View.OnClickListener() {  
 			   @Override  
-			   public void onClick(View b2) {  
+			   public void onClick(View b1) {  
 				   Intent intent = new Intent(context,Ketikasalah.class);
 					startActivity(intent);
 			   }  
 			  });
 		
 		}
+	
 	
 	
 	protected void ketikarrowkiri(){
