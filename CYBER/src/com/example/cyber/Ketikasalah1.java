@@ -10,7 +10,7 @@ import android.view.Window;
 import android.widget.Button;
 import android.widget.ImageButton;
 
-public class Ketikasalah extends Activity {
+public class Ketikasalah1 extends Activity {
 
 	MediaPlayer mp;
     ImageButton one ;
@@ -19,7 +19,7 @@ public class Ketikasalah extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		this.requestWindowFeature(Window.FEATURE_NO_TITLE);
-		setContentView(R.layout.ketikasalah);
+		setContentView(R.layout.ketikasalah1);
 		mp = MediaPlayer.create(this, R.raw.yahsalah);
 		mp.start();
 		
@@ -29,11 +29,11 @@ public class Ketikasalah extends Activity {
 
 	protected void ketiksalah(){
 		final Context context = this;
-		Button arrow = (Button) findViewById(R.id.salah); 
+		Button arrow = (Button) findViewById(R.id.salah1); 
 		arrow.setOnClickListener(new View.OnClickListener() {  
 			   @Override  
 			   public void onClick(View b1) {  
-				   Intent intent = new Intent(context,Soalhitung1.class);
+				   Intent intent = new Intent(context,Soalhitung2.class);
 					startActivity(intent);
 			   }  
 			  });
