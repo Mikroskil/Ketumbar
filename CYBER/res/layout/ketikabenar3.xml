@@ -9,7 +9,7 @@
     tools:context=".Ketikabenar" >
 
             <Button
-                android:id="@+id/benar"
+                android:id="@+id/benar3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentBottom="true"
