@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/hurufc"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/maples2"
+    android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/leftarrow"
+            android:layout_width="83dp"
+            android:layout_height="92dp"
+            android:layout_alignBaseline="@+id/rightarrow"
+            android:layout_alignBottom="@+id/rightarrow"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/leftarrow" 
+            android:contentDescription="@drawable/leftarrow" />
+
+        <ImageButton
+            android:id="@+id/rightarrow"
+            android:layout_width="83dp"
+            android:layout_height="92dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/rightarrow" 
+            android:contentDescription="@drawable/rightarrow" />
+
+        <ImageButton
+            android:id="@+id/arrowback"
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/arrowback" 
+            android:contentDescription="@drawable/arrowback" />
+
+        <ImageButton
+            android:id="@+id/sapu"
+            android:layout_width="480dp"
+            android:layout_height="300dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/arrowback"
+            android:background="@drawable/sapu"
+            android:contentDescription="@drawable/sapu" />
+
+</RelativeLayout>
