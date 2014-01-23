@@ -189,6 +189,194 @@
             android:name="com.example.cyber.Ketikasalah"
             android:label="@string/title_activity_ketikasalah" >
         </activity>
+        <activity
+            android:name="com.example.cyber.Soalhitung2"
+            android:label="@string/title_activity_soalhitung2" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Soalhitung3"
+            android:label="@string/title_activity_soalhitung3" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Soalhitung4"
+            android:label="@string/title_activity_soalhitung4" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Soalhitung5"
+            android:label="@string/title_activity_soalhitung5" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Soalhitung6"
+            android:label="@string/title_activity_soalhitung6" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Ketikabenar1"
+            android:label="@string/title_activity_ketikabenar1" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Ketikabenar2"
+            android:label="@string/title_activity_ketikabenar2" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Ketikabenar3"
+            android:label="@string/title_activity_ketikabenar3" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Ketikabenar4"
+            android:label="@string/title_activity_ketikabenar4" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Ketikabenar5"
+            android:label="@string/title_activity_ketikabenar5" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Baca2"
+            android:label="@string/title_activity_baca2" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Baca3"
+            android:label="@string/title_activity_baca3" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Baca4"
+            android:label="@string/title_activity_baca4" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Menulisa"
+            android:label="@string/title_activity_menulisa" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Baca5"
+            android:label="@string/title_activity_baca5" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Baca6"
+            android:label="@string/title_activity_baca6" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Baca7"
+            android:label="@string/title_activity_baca7" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Menulisb"
+            android:label="@string/title_activity_menulisb" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Menulisc"
+            android:label="@string/title_activity_menulisc" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Menulisd"
+            android:label="@string/title_activity_menulisd" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Menulise"
+            android:label="@string/title_activity_menulise" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Menulisf"
+            android:label="@string/title_activity_menulisf" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Menulisg"
+            android:label="@string/title_activity_menulisg" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Menulish"
+            android:label="@string/title_activity_menulish" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Menulisi"
+            android:label="@string/title_activity_menulisi" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Menulisj"
+            android:label="@string/title_activity_menulisj" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Menulisk"
+            android:label="@string/title_activity_menulisk" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Menulisl"
+            android:label="@string/title_activity_menulisl" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Menulism"
+            android:label="@string/title_activity_menulism" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Menulisn"
+            android:label="@string/title_activity_menulisn" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Menuliso"
+            android:label="@string/title_activity_menuliso" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Menulisp"
+            android:label="@string/title_activity_menulisp" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Menulisq"
+            android:label="@string/title_activity_menulisq" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Menulisr"
+            android:label="@string/title_activity_menulisr" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Menuliss"
+            android:label="@string/title_activity_menuliss" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Menulist"
+            android:label="@string/title_activity_menulist" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Menulisu"
+            android:label="@string/title_activity_menulisu" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Menulisv"
+            android:label="@string/title_activity_menulisv" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Menulisw"
+            android:label="@string/title_activity_menulisw" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Menulisx"
+            android:label="@string/title_activity_menulisx" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Menulisy"
+            android:label="@string/title_activity_menulisy" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Menulisz"
+            android:label="@string/title_activity_menulisz" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Ketikasalah1"
+            android:label="@string/title_activity_ketikasalah1" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Ketikasalah2"
+            android:label="@string/title_activity_ketikasalah2" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Ketikasalah3"
+            android:label="@string/title_activity_ketikasalah3" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Ketikasalah4"
+            android:label="@string/title_activity_ketikasalah4" >
+        </activity>
+        <activity
+            android:name="com.example.cyber.Ketikasalah5"
+            android:label="@string/title_activity_ketikasalah5" >
+        </activity>
     </application>
 
 </manifest>
